@@ -18,7 +18,7 @@ app load ["arithmeticTheory", "realTheory", "prim_recTheory", "seqTheory",
           "util_probTheory", "extrealTheory", "real_measureTheory","real_sigmaTheory",
 	  "indexedListsTheory", "listLib", "bossLib", "metisLib", "realLib", "numLib",
           "combinTheory", "arithmeticTheory","boolTheory", "listSyntax", "lebesgueTheory",
-	  "real_sigmaTheory", "cardinalTheory", "FTree_deepTheory", "ETREETheory", "RBDTheory"];
+	  "real_sigmaTheory", "cardinalTheory", "ETREETheory", "RBDTheory"];
 
 open HolKernel Parse boolLib bossLib limTheory arithmeticTheory realTheory prim_recTheory
      real_probabilityTheory seqTheory pred_setTheory res_quanTheory sortingTheory res_quanTools
