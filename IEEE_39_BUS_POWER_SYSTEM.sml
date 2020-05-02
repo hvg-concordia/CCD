@@ -1,5 +1,5 @@
 (* ========================================================================= *)
-(* File Name: IEEE 39 Bus Power System.sml	          	             *)
+(* File Name: IEEE 39 BUS POWER SYSTEM.sml	          	             *)
 (*---------------------------------------------------------------------------*)
 (*          Description: Formalization of cause-Consequence Diagrams         *)
 (*	    		 using HOL4 Theorem Prover                           *)
