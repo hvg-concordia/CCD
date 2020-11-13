@@ -2,10 +2,7 @@
 
 CCD HOL Theorems and mathematical formulations are currently supported for Linux users only
 
-"-----------------------------------------  Installing HOL ---------------------------------------------------"
-
-Following are the steps for error free installation of HOL in Linux
---------------------------------------------------------------------
+"-----------------------------------------  Installing HOL in Linux ---------------------------------------------------"
 
 1- Make sure that the GCC compiler is properly installed, if not then open the terminal and use the following command.
 sudo apt-get update
@@ -70,4 +67,5 @@ in the HOL shell, the HOL will load this theorem directly for use without reproo
 "----------------------------------------   Contacts ---------------------------------------------------------"
 
 Mohamed Abdelghany  (m_eldes@ece.concordia.ca)
+
 Prof. Sofiene Tahar (tahar@ece.concordia.ca)
