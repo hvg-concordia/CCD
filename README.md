@@ -55,16 +55,14 @@ A more detail description of the Emacs HOL commands can be found in https://hol-
 To use the CCD theorems and mathematical formulations, load all the necessary files (sequentially one by one) 
 in the HOL shell as follows: 
 
-The tab “HOL”, at the top of Emacs bar ==> Misc ==> Load file ==> ETree.sml
-                                                              ==> RBD.sml 
-                                                              ==> FT_deep.sml 
-                                                              ==> CCD.sml                                                              
+The tab “HOL”, at the top of Emacs bar ==> Misc ==> Load file 
+==> ETree.sml ==> RBD.sml ==> FT_deep.sml ==> CCD.sml    
+
 Now all CCD formulations are proved in the HOL shell and ready to be used!
 
 "--------------------------------------------  CCD Theorems  -------------------------------------------------"
 
-All theorems are stored under a specific different name as follows:
-"val FOUR_DECISION_BOXES_1002 = store_thm("FOUR_DECISION_BOXES_1002")"
+All theorems are stored under a specific different name as follows: store_thm("name")"
 
 Entre the name of any theorem exist at the file "CCD.sml", for instance, "FOUR_DECISION_BOXES_1002" 
 in the HOL shell, the HOL will load this theorem directly for use without reproof it again.         
