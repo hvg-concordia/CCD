@@ -69,7 +69,7 @@ in the HOL shell, the HOL will load this theorem directly for use without reproo
 We applied our CCD theorems on a real-world application IEEE 39-Bus Power System to show the capability of 
 the CCD formulations in obtaining a component-level reliability/failure expression easily.  
 
-Tp run the file ==> press the tab “HOL" ==> Misc ==> Load file ==> IEEE_39_BUS_POWER_SYSTEM.sml
+To load the file ==> press the tab “HOL" ==> Misc ==> Load file ==> IEEE_39_BUS_POWER_SYSTEM.sml
 
 "----------------------------------------   Contacts ---------------------------------------------------------"
 
