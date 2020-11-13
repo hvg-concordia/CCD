@@ -1,3 +1,75 @@
 # Cause-Consequence-Diagrams-Formalization
-Cause-consequence Diagram (CCD) is widely used as a deductive safety analysis technique for decision-making at the critical-system design stage. This approach models the causes of sub-system failures in a highly-critical system and their potential consequences using Fault Tree (FT) and Event Tree (ET) methods, which are well-known dependability modeling techniques. Simulation tools are commonly used
-to carry out the CCD analysis, but lacks the ability to rigorously verify the essential system reliability properties. In this paper, we propose to use the HOL4 theorem prover for the formal modeling and analysis of CCDs to overcome the inaccuracies in the simulation-based analysis and the error-prone informal reasoning by mathematical proofs. We demonstrate the practical effectiveness of the proposed CCD formalization by performing the formal CCD-based reliability analysis of the IEEE 39-bus electrical power network and formally determine its reliability index, i.e., System Average Interruption Duration Index (SAIDI).
+
+CCD HOL Theorems and mathematical formulations are currently supported for Linux users only
+
+"-----------------------------------------  Installing HOL ---------------------------------------------------"
+
+Following are the steps for error free installation of HOL in Linux
+--------------------------------------------------------------------
+
+1- Make sure that the GCC compiler is properly installed, if not then open the terminal and use the following command.
+sudo apt-get update
+sudo apt-get install build-essential
+
+2- Download the PolyML 5.7 
+(Download Link: https://osdn.net/frs/g_redir.php?m=kent&f=polyml%2Fpolyml%2F5.7%2Fpolyml-5.7.tar.gz). 
+Untar the package into any directory of your choice.
+
+3- Open the terminal and enter into the package directory using cd command. e.g.
+Abdelghany@ubuntu:~ cd /Downloads/polyml-5.7$
+
+4- In the PolyML directory, type the following commands one by one;
+./configure --prefix=/usr
+make
+sudo make install
+
+5- The latest HOL-kananankis-12 (HOL4) can be download from GitHub (https://github.com/HOL-Theorem-Prover/HOL)
+Once the download finished and enter into the HOL package directory using cd command. e.g.
+Abdelghany@ubuntu:~/Downloads/HOL$
+
+6- Type the following command in terminal,
+poly < tools/smart-configure.sml
+
+Wait for configuration to complete!
+
+7- Type the following command in terminal,
+bin/build
+
+The installation of HOL begins if the above procedure is followed correctly, and after some time, it will complete the installation.
+
+8- Install the Emacs by using the following command in the terminal.
+sudo apt-get install emacs
+
+After completion of Emacs installation, open emacs, and load the file “hol-mode.el” from HOL directory. e.g.
+
+a) At Emacs, Press ALT-x and type “load-file” then press enter
+b) A cursor appears at the bottom, type the path “~/Downloads/HOL/tools/hol-mode.el” then press enter
+c) Press ALT-h 3 (it will split the Emacs screen into two columns and the HOL shell is running on the right screen)
+d) The tab “HOL”, at the top of Emacs bar, contains several shortcuts to interact with HOL shell.
+
+A more detail description of the Emacs HOL commands can be found in https://hol-theorem-prover.org/hol-mode.html.
+
+
+"-----------------------------------------  Installing CCD Code ----------------------------------------------"
+
+To use the CCD theorems and mathematical formulations, load all the necessary files (sequentially one by one) 
+in the HOL shell as follows: 
+
+The tab “HOL”, at the top of Emacs bar ==> Misc ==> Load file ==> ETree.sml
+                                                              ==> RBD.sml 
+                                                              ==> FT_deep.sml 
+                                                              ==> CCD.sml                                                              
+Now all CCD formulations are proved in the HOL shell and ready to be used!
+
+"--------------------------------------------  CCD Theorems  -------------------------------------------------"
+
+All theorems are stored under a specific different name as follows:
+"val FOUR_DECISION_BOXES_1002 = store_thm("FOUR_DECISION_BOXES_1002")"
+
+Entre the name of any theorem exist at the file "CCD.sml", for instance, "FOUR_DECISION_BOXES_1002" 
+in the HOL shell, the HOL will load this theorem directly for use without reproof it again.         
+
+"----------------------------------------   Contacts ---------------------------------------------------------"
+
+Mohamed Abdelghany  (m_eldes@ece.concordia.ca)
+Prof. Sofiene Tahar (tahar@ece.concordia.ca)
