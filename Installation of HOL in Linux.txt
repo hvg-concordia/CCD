@@ -23,7 +23,7 @@ Abdelghany@ubuntu:~/Downloads/HOL$
 6- Type the following command in terminal,
 poly < tools/smart-configure.sml
 
-Wait for configuration to complete.
+Wait for configuration to complete!
 
 7- Type the following command in terminal,
 bin/build
