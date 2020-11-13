@@ -5,7 +5,8 @@ Following are the steps for error free installation of HOL in Linux
 sudo apt-get update
 sudo apt-get install build-essential
 
-2- Download the PolyML 5.7 (Download Link: https://osdn.net/frs/g_redir.php?m=kent&f=polyml%2Fpolyml%2F5.7%2Fpolyml-5.7.tar.gz). Untar the package into any directory of your choice.
+2- Download the PolyML 5.7 (Download Link: https://osdn.net/frs/g_redir.php?m=kent&f=polyml%2Fpolyml%2F5.7%2Fpolyml-5.7.tar.gz). 
+Untar the package into any directory of your choice.
 
 3- Open the terminal and enter into the package directory using cd command. e.g.
 Abdelghany@ubuntu:~ cd /Downloads/polyml-5.7$
