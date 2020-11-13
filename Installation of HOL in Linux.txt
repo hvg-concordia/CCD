@@ -12,7 +12,6 @@ Untar the package into any directory of your choice.
 Abdelghany@ubuntu:~ cd /Downloads/polyml-5.7$
 
 4- In the PolyML directory, type the following commands one by one;
-
 ./configure --prefix=/usr
 make
 sudo make install
