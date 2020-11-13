@@ -64,6 +64,13 @@ All theorems are stored under a specific different name as follows: store_thm("n
 Entre the name of any theorem exist at the file "CCD.sml", for instance, "FOUR_DECISION_BOXES_1002" 
 in the HOL shell, the HOL will load this theorem directly for use without reproof it again.         
 
+"--------------------------- IEEE 39-Bus Power System Application  -------------------------------------------"
+
+We applied our CCD theorems on a real-world application IEEE 39-Bus Power System to show the capability of 
+the CCD formulations in obtaining a component-level reliability/failure expression easily.  
+
+Tp run the file ==> press the tab “HOL" ==> Misc ==> Load file ==> IEEE_39_BUS_POWER_SYSTEM.sml
+
 "----------------------------------------   Contacts ---------------------------------------------------------"
 
 Mohamed Abdelghany  (m_eldes@ece.concordia.ca)
