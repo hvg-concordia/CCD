@@ -1,4 +1,4 @@
-# Cause-Consequence-Diagrams-Formalization
+# Cause Consequence Diagrams (CCD)
 
 CCD HOL Theorems and mathematical formulations are currently supported for Linux users only
 
